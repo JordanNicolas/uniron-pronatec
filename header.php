@@ -14,7 +14,7 @@
   <title>Document</title>
   
   <!-- Meta -->
-  <meta name="author" content="Netpix - Agência Digital [http://netpix.com.br]">
+  <meta name="author" content="Netpix - Agência Web [http://netpix.com.br]">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="contact" content="agencia@netpix.com.br">
   <meta name="rating" content="general">
