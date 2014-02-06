@@ -18,7 +18,7 @@
     define('IMAGES_URI', ASSETS_URI . DS . 'img');
 
   if( !defined('INCLUDES_DIR') )
-    define('INCLUDES_DIR', URI . DS . 'includes' )
+    define('INCLUDES_DIR', URI . DS . 'includes' );
 
   /** Corrige o timezone */
   setlocale( LC_ALL, "pt_BR" );
