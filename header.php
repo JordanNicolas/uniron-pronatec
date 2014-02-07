@@ -11,7 +11,7 @@
 <head>
   <?php include_once("functions.php"); ?>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Pronatec &mdash; <?php echo $page_title; ?></title>
   
   <!-- Meta -->
   <meta name="author" content="Netpix - Agência Web [http://netpix.com.br]">
@@ -42,3 +42,37 @@
 </head>
 <?php flush(); ?>
 <body>
+  <div class="wrapper">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-8 relative">
+          <div class="img-menina absolute"></div>
+          <a href="<?php echo URI . DS; ?>" class="pull-right mt20 z1">
+            <img src="<?php echo IMAGES_URI . DS; ?>logo.png" alt="" class="relative">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="" class="pull-right mt20">
+            <img src="<?php echo IMAGES_URI . DS; ?>logo-pronatec.png" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          
+        </div>
+        <div class="col-md-9">
+          <ul class="menu uc lavalamp">
+            <li class="active"><a href="<?php echo URI; ?>" data-target="home"><div class="home"></div></a></li>
+            <li><a href="<?php echo URI . DS; ?>pronatec" data-target="pronatec">O que é o pronatec?</a></li>
+            <li><a href="<?php echo URI . DS; ?>objetivos" data-target="objetivos">Objetivos</a></li>
+            <li><a href="<?php echo URI . DS; ?>cursos" data-target="cursos">Cursos</a></li>
+            <li><a href="<?php echo URI . DS; ?>inscreva-se" data-target="inscreva-se">Inscreva-se</a></li>
+            <li><a href="<?php echo URI . DS; ?>perguntas-frequentes" data-target="perguntas-frequentes">Perguntas Frequentes</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>

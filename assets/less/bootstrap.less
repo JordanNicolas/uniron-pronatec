@@ -50,3 +50,137 @@
 
 // Custom files
 @import "pace.less";
+@import "ie.less";
+@import "sprite.less";
+@import "fonts.less";
+
+html, body, .wrapper {
+  height: 100%;
+}
+
+.wrapper {
+  background: url(../img/bg-site.png) repeat-x;
+  min-height: 100%;
+  height: auto !important;
+  margin: 0 auto -160px;
+  padding-bottom: 150px;
+  background-color: #3497AE;
+}
+
+.border {
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.img-menina {
+  background: url(../img/imagem-mulher.png) no-repeat center;
+  height: 58em;
+  width: 37em;
+  float: left;
+}
+
+/** Rodapé */
+footer {
+  .utc();
+  background-color: #E7E8EA;
+
+  .icons {
+    margin: -40px 0px 0px 0px;
+  }
+
+  .local {
+    float: left;
+    position: relative;
+    top: 25px;
+    left: 32px;
+  }
+
+  .info-phone {
+    float: left;
+    padding: 24px 10px 0px 0px;
+    border-right: 1px solid #dadada;
+    height: 100px;
+
+    .call {
+
+      .ddd {
+        font-size: 22px;
+      }
+
+      .telephone-number {
+        color: #c8171f;
+        font-size: 44px;
+        margin: -10px 0px;
+        padding: 0px 6px;
+      }
+    }
+
+    .url {
+
+      .link {
+        font-size: 28px;
+        margin: 10px 10px 0 15px;
+        padding: 0px 9px;
+      }
+    }
+  }
+  
+  .direitos {
+    border-top: 1px solid #c9c9c9;
+    padding: 5px 0px;
+
+    .direitos-autorais {
+      color: #444;
+      line-height: 32px;
+    }
+  }
+}
+
+/** Menu de Navegação */
+.menu {
+  list-style: none;
+  width: 100%;
+  margin: 4px 0px 0px 5em;
+  padding: 0;
+
+  li {
+    display: inline-block;
+    margin-left: 10px;
+
+    &:first-child {
+      margin-left: 0px;
+    }
+
+    a {
+      padding-bottom: 5px;
+      color: #444;
+      font-size: 12px;
+
+      &:hover {
+        text-decoration: none;
+        color: #3599B1;
+      }
+
+      &.active {
+        border-bottom: 4px solid #3599B1;
+      }
+    }
+  }
+}
+
+/** Caminho mais RÁPIDO PARA SEU EMPREGO */
+.emprego {
+  background: url(../img/imagem-slogan.png) no-repeat right top;
+  width: 100%;
+  height: 135px;
+  margin-top: 10px;
+}
+
+.content {
+  background-color: #fff;
+  height: 537px;
+  width: 96%;
+  margin-left: 2em;
+  box-shadow: 0px 0px 0px 10px rgba(255,255,255,0.2);
+  margin-top: -2em;
+}

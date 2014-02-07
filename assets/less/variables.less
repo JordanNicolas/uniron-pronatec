@@ -822,6 +822,101 @@
 @container-md:                 @container-desktop;
 
 // Large screen / wide desktop
-@container-large-desktop:      ((1140px + @grid-gutter-width));
+@container-large-desktop:      ((935px + @grid-gutter-width));
 //** For `@screen-lg-min` and up.
 @container-lg:                 @container-large-desktop;
+
+// == Custom Variables
+.z1 { z-index: 1; }
+
+.mt10 { margin-top: 10px; }
+.mt20 { margin-top: 20px; }
+.ml10 { margin-left: 10px; }
+.ml20 { margin-left: 20px; }
+.mr10 { margin-left: 10px; }
+.mr20 { margin-left: 20px; }
+.mb10 { margin-bottom: 10px; }
+.mb20 { margin-bottom: 20px; }
+
+.pb10 { padding-bottom: 10px; }
+.pb20 { padding-bottom: 20px; }
+
+.left { text-align: left; }
+.center { text-align: center; }
+.right { text-align: right; }
+
+.uc { text-transform: uppercase; }
+.lc { text-transform: lowercase; }
+
+.bold { font-weight: bold; }
+.bolder { font-weight: bolder; }
+
+.italic { font-style: italic; }
+
+.nostyle { list-style: none; }
+.nounderline { text-decoration: none; }
+.underline { text-decoration: underline; }
+
+.absolute { position: absolute; }
+.relative { position: relative; }
+.fixed { position: fixed; }
+.static { position: static; }
+
+.fs8 { font-size: 8px; }
+.fs10 { font-size: 10px; }
+.fs12 { font-size: 12px; }
+.fs11 { font-size: 11px; }
+.fs14 { font-size: 14px; }
+.fs16 { font-size: 16px; }
+.fs18 { font-size: 18px; }
+.fs20 { font-size: 20px; }
+.fs22 { font-size: 22px; }
+.fs25 { font-size: 25px; }
+.fs26 { font-size: 26px; }
+.fs32 { font-size: 32px; }
+.lh42 { line-height: 42px; }
+
+.default { cursor: default; }
+.pointer { cursor: pointer; }
+
+.container-full { width: 100%; }
+.w90 { width: 90%; }
+
+.helvetica { font-family: Helvetica, Arial, sans-serif; }
+.helveticaneue { font-family: "Helvetica Neue"; }
+.helveticanarrow { font-family: "Helvetica Narrow"; }
+
+.netpix-tooltip-background {
+  position: relative;
+  background-color: #002C46;
+  border: solid 3px #0077A1;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  padding: 5px;
+  text-shadow: 1px 1px 1px #002C46, 1px -1px 1px #002C46;
+}
+
+.hoveralls_container {
+  width: 31px!important;
+  height: 31px!important;
+  overflow: hidden;
+  text-align: right;
+  float: right;
+  padding: 0px 0px;
+  position: relative;
+  top: -4px;
+  margin-top: 5px;
+}
+
+.netpix-tooltip-text {
+  padding-top: 0px;
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'PT Sans';
+  position: relative;
+  top: -22px !important;
+}
