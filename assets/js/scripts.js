@@ -25,6 +25,19 @@ jQuery(document).ready(function($) {
     big_link:true
   });
 
-  /** Perguntas Frequentes */
-  $('')
+  /** Click do menu e exibição por abas */
+  $('.menu li a').click(function(e) {
+    e.preventDefault();
+    target = $(this).data('target');
+    $('.templates').addClass('hidden');
+
+    $('#' + target).fadeIn('slow').removeClass('hidden');
+
+    $('.menu li').removeClass('active');
+    $(this).parent().addClass('active');
+  });
+
+  /** Mascaras Globais */
+  $('.cpf').mask('999.999.999-99');
+  $('.telephone-mask, #fi_telefone').mask('(99) 9999-9999');
 });

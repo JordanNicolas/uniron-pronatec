@@ -15,37 +15,37 @@
       
     </div>
     <div class="col-md-7">
-      <div class="row" id="home" class="templates">
+      <div class="row templates" id="home">
         <div class="col-md-12">
           <?php include_once("partial_templates/content-home.php"); ?>
         </div>
       </div>
 
-      <div class="row" id="pronatec" class="templates" style="display: none;">
+      <div class="row templates hidden" id="pronatec">
         <div class="col-md-12">
           <?php include_once("partial_templates/content-pronatec.php"); ?>
         </div>
       </div>
 
-      <div class="row" id="objetivos" class="templates" style="display: none;">
+      <div class="row templates hidden" id="objetivos">
         <div class="col-md-12">
           <?php include_once("partial_templates/content-objetivos.php"); ?>
         </div>
       </div>
 
-      <div class="row" id="cursos" class="templates" style="display: none;">
+      <div class="row templates hidden" id="cursos">
         <div class="col-md-12">
           <?php include_once("partial_templates/content-cursos.php"); ?>
         </div>
       </div>
 
-      <div class="row" id="inscreva-se" class="templates" style="display: none;">
+      <div class="row templates hidden" id="inscreva-se">
         <div class="col-md-12">
           <?php include_once("partial_templates/content-inscreva_se.php"); ?>
         </div>
       </div>
 
-      <div class="row" id="perguntas-frequentes" class="templates" style="display: none;">
+      <div class="row templates hidden" id="perguntas-frequentes">
         <div class="col-md-12">
           <?php include_once("partial_templates/content-perguntas_frequentes.php"); ?>
         </div>
