@@ -41,7 +41,7 @@
 
       <div class="row templates hidden" id="inscreva-se">
         <div class="col-md-12">
-          <?php include_once("partial_templates/content-inscreva_se.php"); ?>
+          <?php include_once("partial_templates/form-google.php"); ?>
         </div>
       </div>
 

@@ -90,6 +90,19 @@ iframe {
   border-radius: 4px;
 }
 
+/** Labels Erros */
+label.error {
+  color: red;
+  font-size: 14px;
+  margin: 5px 0px;
+  .utc();
+}
+
+input[type="text"]:focus + label.error,
+input[type="email"]:focus + label.error {
+  display: none;
+}
+
 /** Rodapé */
 footer {
   .utc();

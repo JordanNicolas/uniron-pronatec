@@ -6,6 +6,10 @@
   /** Include Theme Config file */
   include_once("includes/theme-config.php");
 
+  /** Require Classes PHPMailer */
+  include_once("includes/class-phpmailer.php");
+  include_once("includes/class-smtp.php");
+
   /**
    * Define função para envio de email pelo site
    * com opção de mudança de nomes e emails pelo gerenciador.
@@ -15,9 +19,7 @@
    * @version 0.1.0
    * @author Randson Jarthis
    **/
-  function email( $para, $de, $de_nome, $assunto, $corpo ) {
-    require( INCLUDES_DIR . DS . 'class-phpmailer.php' );
-    require( INCLUDES_DIR . DS . 'class-smtp.php' );
+  function smtpmailer( $para, $de, $de_nome, $assunto, $corpo ) {
 
     $mail = new PHPMailer();
 
@@ -35,11 +37,11 @@
 
     $mail->CharSet = "UTF-8";
 
-    $mail->Port = '587';
+    $mail->Port = 587;
 
-    $mail->Username = 'randson@netpix.com.br';
+    $mail->Username = 'agencia@netpix.com.br';
 
-    $mail->Password = '';
+    $mail->Password = '!#n3tp1x#!';
 
     $mail->SetFrom($de, $de_nome);
 
@@ -58,3 +60,6 @@
       return true;
     }
   }
+
+  /** Include Ajax Theme File */
+  include_once("includes/ajax.php"); ?>
