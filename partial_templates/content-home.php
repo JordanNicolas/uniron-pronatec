@@ -1,5 +1,5 @@
 <h2 class="helvetica fs24 uc pull-right">
-  <span class="" style="color: #ccc;">Pronatec &</span> <span class="red" style="color: #2E3192;">UNINORTE</span>
+  <span class="" style="color: #ccc;">Pronatec &</span> <span class="red" style="color: #BA161F;">Uniron</span>
 </h2>
 
 <div class="content-home">
@@ -17,7 +17,7 @@
   </p>
 
   <h2 class="helvetica fs24 uc pull-left">
-    <span class="" style="color: #ccc;">Assista aos</span> <span class="red" style="color: #2E3192;">Videos</span>
+    <span class="" style="color: #ccc;">Assista aos</span> <span class="red" style="color: #BA161F;">Videos</span>
   </h2>
 
   <div class="videos-home">

@@ -1,5 +1,5 @@
 <h2 class="helvetica fs28 uc pull-right">
-  <span class="" style="color: #2E3192;">Faça sua</span> <span class="red" style="color: #3096AD;">pré-inscrição</span>
+  <span class="" style="color: #ccc;">Faça sua</span> <span class="red" style="color: #3096AD;">pré-inscrição</span>
 </h2>
 
 <?php $fields_campos = array(
