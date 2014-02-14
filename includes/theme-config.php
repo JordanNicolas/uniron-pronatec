@@ -1,6 +1,6 @@
 <?php 
   if( !defined('URI') )
-    define('URI', 'http://uniron.edu.br/pronatec');
+    define('URI', 'http://netpix.com.br/uniron/uninorte');
   if( !defined('DIR') )
     define( 'DIR', dirname(__DIR__) );
 
