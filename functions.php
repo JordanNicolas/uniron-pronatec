@@ -39,9 +39,9 @@
 
     $mail->Port = 587;
 
-    $mail->Username = 'agencia@netpix.com.br';
+    $mail->Username = '';
 
-    $mail->Password = '!#n3tp1x#!';
+    $mail->Password = '';
 
     $mail->SetFrom($de, $de_nome);
 

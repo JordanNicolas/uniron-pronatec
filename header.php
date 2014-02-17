@@ -53,7 +53,7 @@
           </a>
         </div>
         <div class="col-md-4">
-          <a href="" class="pull-right mt20">
+          <a href="http://pronatec.mec.gov.br/" class="pull-right mt20">
             <img src="<?php echo IMAGES_URI . DS; ?>logo-pronatec.png" alt="">
           </a>
         </div>
